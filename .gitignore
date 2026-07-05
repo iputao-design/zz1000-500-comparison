@@ -1,3 +1,7 @@
 .deps/
 .DS_Store
 __pycache__/
+index_close_comparison_2005-2026.csv
+index_close_comparison_2016-2026.csv
+index_stats_summary_2005-2026.csv
+index_stats_summary_2016-2026.csv
