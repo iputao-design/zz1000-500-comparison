@@ -33,6 +33,6 @@ else
   git push -u origin main
 fi
 
-gh api --method POST "repos/$REPO/pages" -f source.branch=main -f source.path=/ >/dev/null 2>&1 || true
+gh api --method POST "repos/$REPO/pages" -F "source[branch]=main" -F "source[path]=/" >/dev/null 2>&1 || true
 
 echo "Published: $PAGES_URL"
